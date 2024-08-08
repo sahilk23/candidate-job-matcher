@@ -3,6 +3,15 @@ import sklearn
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+"""
+Job description:- 
+  We are looking for a skilled UI Developer to join our dynamic team. The ideal candidate will have a strong background in front-end development, 
+  with proficiency in HTML, CSS, JavaScript, and modern frameworks like React or Angular. 
+  Your primary responsibility will be to create visually appealing and user-friendly web interfaces that enhance user experience 
+  and align with our brand guidelines.
+  
+"""
+
 job_description = input("Enter the job description :- ")
 
 df_candidates = pd.read_csv('candidates.csv')
